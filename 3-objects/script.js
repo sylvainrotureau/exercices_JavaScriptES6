@@ -12,6 +12,12 @@ const bus = {
     equipments: ['sae', 'tft', 'speech']
 }
 
-//3.2 Object.values
+// Afficher les carractéristiques du véhicule sours la forme 
+// `clé : valeur` (Ex: `id: 3221`)
+console.log(`data: ${bus.vehicle}`);
 
-console.log(data)
+//3.2 Object.values
+ Object.keys(data).forEach(key => {
+     console.log(key, data[key].texte);
+   });
+
