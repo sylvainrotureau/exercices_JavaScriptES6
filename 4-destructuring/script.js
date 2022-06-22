@@ -18,6 +18,7 @@ console.log(c);
 const {age} = {first: 'Paul', last: 'Henta', age: 35}
 console.log(age);
 
+
 // Pour chacunes des perturbations du fichier `data.js` 
 // (variable `data`) récupérer dans des variables puis afficher
 // leur texte, date de début et date de fin.
@@ -25,7 +26,6 @@ console.log(age);
     Object.values(data).forEach(value => {
 
 const {texte, dateDebut, dateFin} = value;
-
 
         console.log(texte);
         console.log(dateDebut);

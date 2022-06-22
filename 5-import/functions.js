@@ -2,7 +2,6 @@ export const hello = () => console.log('hello')
 export const showError = message => console.error(message)
 
 
-
 /// C'est celle là, la fonction anonyme ///
 export default () => {
     var _nyan = 0;
@@ -43,6 +42,7 @@ function nyan(){
     console.log(__nyan[_nyan].join("\n"))
     if(_nyan == 0){ _nyan = 1; } else { _nyan = 0; }
 }
+
 
 window.setInterval(nyan, 300)
 }
